@@ -173,7 +173,7 @@ blockquote {
 
   top: 0;
 
-  z-index: 1000;
+  z-index: 10000;
 }
 
 .site-nav {
@@ -186,7 +186,9 @@ blockquote {
 
   gap: 2rem;
 
-  padding: 1rem;
+  padding: 1.2rem 1rem;
+
+  min-height: 60px;
 }
 
 .site-nav a {
@@ -196,6 +198,10 @@ blockquote {
   font-weight: 600;
 
   letter-spacing: .02em;
+
+  display: inline-block;
+
+  padding: 0.5rem 0;
 }
 
 .site-nav a:hover {
@@ -215,7 +221,7 @@ blockquote {
 
   gap: 3rem;
 
-  padding: 5rem 0;
+  padding: 3rem 0;
 
   align-items: center;
 }
@@ -249,7 +255,7 @@ blockquote {
       var(--lavender)
   );
 
-  min-height: 400px;
+  min-height: 320px;
 
   border-radius: 24px;
 
@@ -279,7 +285,7 @@ blockquote {
 
   width: 100%;
 
-  min-height: 420px;
+  min-height: 320px;
 
   border-radius: 30px;
 
@@ -483,7 +489,7 @@ blockquote {
 
   width: 100%;
 
-  height: 320px;
+  height: 240px;
 
   object-fit: cover;
 
@@ -597,7 +603,7 @@ blockquote {
 
 section {
 
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .section-title {
@@ -623,7 +629,7 @@ section {
 
 footer {
 
-  margin-top: 5rem;
+  margin-top: 3rem;
 
   background: var(--navy);
 
@@ -694,6 +700,12 @@ td {
 
     font-size: 1.7rem;
   }
+
+  .hero .image-frame,
+  .page-image {
+    min-height: 280px;
+    max-height: 320px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -703,6 +715,10 @@ td {
     flex-wrap: wrap;
 
     gap: 1rem;
+
+    padding: 1rem 0.5rem;
+
+    min-height: auto;
   }
 
   .wrapper {
@@ -712,12 +728,20 @@ td {
 
   .image-frame {
 
-    min-height: 280px;
+    min-height: 240px;
   }
 
   .page-image {
 
     min-height: 240px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
   }
 }
 
@@ -730,11 +754,6 @@ td {
      to visually block text content
 ===================================================== */
 
-/* Make sure header is on top of content (bump z-index) */
-.site-header {
-  z-index: 10000; /* higher than typical page content */
-}
-
 /* Keep hero and images at a lower stacking context than the header */
 .hero,
 .page-image,
@@ -746,7 +765,7 @@ td {
 /* Constrain hero image heights so they don't push over or cover text */
 .hero .image-frame,
 .page-image {
-  max-height: 420px; /* upper bound for large screens */
+  max-height: 400px; /* upper bound for large screens */
   min-height: 220px; /* reasonable lower bound */
   overflow: hidden;   /* crop overflow instead of expanding layout */
 }
@@ -758,22 +777,4 @@ td {
   height: auto;     /* maintain aspect ratio */
   object-fit: cover;
   display: block;
-}
-
-/* Smaller screens: reduce hero image max height further */
-@media (max-width: 900px) {
-  .hero .image-frame,
-  .page-image {
-    max-height: 320px;
-    min-height: 180px;
-  }
-}
-
-/* Very small screens */
-@media (max-width: 600px) {
-  .hero .image-frame,
-  .page-image {
-    max-height: 240px;
-    min-height: 140px;
-  }
 }
