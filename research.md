@@ -1,3 +1,9 @@
+---
+layout: page
+title: Research and Publications
+permalink: /research/
+---
+
 # Research
 
 ## Research Profiles
