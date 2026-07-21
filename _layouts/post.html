@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {{ page.title }} | Alicia JW Takaoka
+  </title>
+
+  <link rel="/style.css
+
+</head>
+
+<body>
+
+<nav class="site-nav">
+
+  <a href="/">Home</a>
+  <a href="/about/">About</a>
+ref="/">Education</a>
+  <a href="/">Research</a>
+  <a href="/">Service</a>
+  <a href="/">Consulting</a>
+  <a href="/">Media</a>
+  <a href="/blog/">Blog</aa href="/">Contact</a>
+
+</nav>
+
+<div class="wrapper">
+
+  <article class="blog-post">
+
+    <header class="post-header">
+
+      <h1>{{ page.title }}</h1>
+
+      <p class="post-meta">
+
+        {{ page.date | date: "%B %d, %Y" }}
+
+        {% if page.categories %}
+          · {{ page.categories | join: ", " }}
+        {% endif %}
+
+      </p>
+
+    </header>
+
+    {% if page.image %}
+    <div class="page-image">
+
+      <img srcimage }}
+
+    </div>
+    {% endif %}
+
+    <div class="post-content">
+
+      {{ content }}
+
+    </div>
+
+    {% if page.tags %}
+    <div class="post-tags">
+
+      <strong>Tags:</strong>
+
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+
+    </div>
+    {% endif %}
+
+  </article>
+
+</div>
+
+<footer>
+
+  <p>
+    © {{ site.time | date: "%Y" }}
+    Alicia JW Takaoka
+  </p>
+
+</footer>
+
+</body>
+</html>
