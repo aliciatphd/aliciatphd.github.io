@@ -1,0 +1,28 @@
+title: Alicia JW Takaoka
+email: aliciatphd@gmail.com
+
+description: >
+  AI, Software Engineering and Systems Researcher.
+  Intersectional data and design science educator.
+  Technology, inclusion and transitions.
+
+baseurl: ""
+url: "https://aliciatphd.github.io"
+
+markdown: kramdown
+theme: minima
+
+header_pages:
+  - about.md
+  - education.md
+  - research.md
+  - service.md
+  - consulting.md
+  - media.md
+  - blog.md
+  - contact.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
