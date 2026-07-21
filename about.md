@@ -1,6 +1,9 @@
 ---
+
 layout: page
-title: About
+title: About Alicia
+permalink: /about/
+
 ---
 
 # A Little About Me
