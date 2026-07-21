@@ -11,8 +11,6 @@ baseurl: ""
 
 url: "https://aliciatphd.github.io"
 
-theme: minima
-
 markdown: kramdown
 
 header_pages:
