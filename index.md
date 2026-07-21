@@ -32,10 +32,10 @@ My work brings together:
 
 <!-- Replace with uploaded image -->
 
-<img src="/assets/images/profile/image/IMG_6410.jpg"
+<img src="/assets/images/IMG_6410.jpg"
 alt="Alicia JW Takaoka">
 
-</ssion is to create inclusive spaces that improve diversity in
+My mission is to create inclusive spaces that improve diversity in
 the digital landscape.
 
 My vision is to prioritize AI ethics and inclusive human-computer
