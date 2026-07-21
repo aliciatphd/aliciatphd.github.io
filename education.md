@@ -1,3 +1,9 @@
+---
+layout: page
+title: Education
+permalink: /education/
+---
+
 <div class="education-grid">
 
 <div class="edu-card">
