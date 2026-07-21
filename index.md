@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /
+permalink: /home/
 ---
 
 <div class="hero">
@@ -32,7 +32,7 @@ My work brings together:
 
 <!-- Replace with uploaded image -->
 
-<img src="/assets/images/profile/homepage-profile.jpg"
+<img src="/assets/images/profile/image/IMG_6410.jpg"
 alt="Alicia JW Takaoka">
 
 </ssion is to create inclusive spaces that improve diversity in
