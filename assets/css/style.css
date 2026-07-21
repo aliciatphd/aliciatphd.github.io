@@ -1,9 +1,6 @@
----
----
-
 /* =====================================================
    Alicia JW Takaoka Website
-   style.scss
+   style.css
 ===================================================== */
 
 /* ---------- Color Palette ---------- */
@@ -388,8 +385,6 @@ blockquote {
 
 .edu-card {
 
-  @extend .card;
-
   border-top: 6px solid var(--royal-blue);
 }
 
@@ -414,7 +409,6 @@ blockquote {
 
 .research-card {
 
-  @extend .card;
 
   border-left: 5px solid var(--teal);
 }
@@ -438,7 +432,6 @@ blockquote {
 
 .service-card {
 
-  @extend .card;
 
   border-bottom: 6px solid var(--sage);
 }
@@ -462,7 +455,7 @@ blockquote {
 
 .consulting-card {
 
-  @extend .card;
+
 
   border-top: 6px solid var(--teal);
 }
@@ -527,11 +520,8 @@ blockquote {
 
 .media-card {
 
-  @extend .card;
-
   border-left: 5px solid var(--royal-blue);
 }
-
 
 /* =====================================================
    BLOG
