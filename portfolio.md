@@ -1,9 +1,17 @@
+---
+
+layout: page
+title: Portfolio
+permalink: /portfolio/
+
+---
+
 <div class="portfolio-gallery">
 
-/assets/images/consulting/work1.jpg
-<img src="/assets/images/consultjpg
-<img src="/assets/images/consulting/work3.jpg">
-es/consulting/work4.jpg
-<img src="/assets/images/consulting/work5.s/images/consulting/work6.jpg
+<img src="assets/images/IMG_6734.jpg">
+<img src="/assets/images/IMG_5079.jpg">
+<img src="/assets/images/IMG_6411.jpg">
+<img src="/assets/images/IMG_6736.jpg">
+<img src="/assets/images/ACMw23.jpg">
 
 </div>
