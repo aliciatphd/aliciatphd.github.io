@@ -239,7 +239,7 @@ blockquote {
 
 /* =====================================================
    IMAGE CONTAINERS
-===================================================== */
+==================================================== */
 
 .image-frame {
 
@@ -525,7 +525,7 @@ blockquote {
 
 /* =====================================================
    BLOG
-===================================================== */
+==================================================== */
 
 .blog-list {
 
@@ -718,5 +718,62 @@ td {
   .page-image {
 
     min-height: 240px;
+  }
+}
+
+
+/* =====================================================
+   Fixes for navigation visibility and hero image sizing
+
+   - Ensure the header stays above large images that could overlap it
+   - Constrain hero / page banner image heights so they don't grow large enough
+     to visually block text content
+===================================================== */
+
+/* Make sure header is on top of content (bump z-index) */
+.site-header {
+  z-index: 10000; /* higher than typical page content */
+}
+
+/* Keep hero and images at a lower stacking context than the header */
+.hero,
+.page-image,
+.image-frame {
+  position: relative;
+  z-index: 0;
+}
+
+/* Constrain hero image heights so they don't push over or cover text */
+.hero .image-frame,
+.page-image {
+  max-height: 420px; /* upper bound for large screens */
+  min-height: 220px; /* reasonable lower bound */
+  overflow: hidden;   /* crop overflow instead of expanding layout */
+}
+
+/* Ensure images scale responsively without forcing excessive height */
+.hero .image-frame img,
+.page-image img {
+  width: 100%;
+  height: auto;     /* maintain aspect ratio */
+  object-fit: cover;
+  display: block;
+}
+
+/* Smaller screens: reduce hero image max height further */
+@media (max-width: 900px) {
+  .hero .image-frame,
+  .page-image {
+    max-height: 320px;
+    min-height: 180px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 600px) {
+  .hero .image-frame,
+  .page-image {
+    max-height: 240px;
+    min-height: 140px;
   }
 }
