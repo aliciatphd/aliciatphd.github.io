@@ -1,4 +1,5 @@
 title: Alicia JW Takaoka
+
 email: aliciatphd@gmail.com
 
 description: >
@@ -7,10 +8,12 @@ description: >
   Technology, inclusion and transitions.
 
 baseurl: ""
+
 url: "https://aliciatphd.github.io"
 
-markdown: kramdown
 theme: minima
+
+markdown: kramdown
 
 header_pages:
   - about.md
@@ -19,7 +22,6 @@ header_pages:
   - service.md
   - consulting.md
   - media.md
-  - blog.md
   - contact.md
 
 plugins:
