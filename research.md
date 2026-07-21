@@ -4,30 +4,40 @@ title: Research and Publications
 permalink: /research/
 ---
 
-# Research
+My research is in inclusion across disciplines. 
 
 ## Research Profiles
 
-- Google Scholar
-- ORCID
-- ResearchGate
+<a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=NL7BytYAAAAJ&gmla">Alicia's Google Scholar</a>
+<a href="https://orcid.org/0000-0001-9014-3301">Alicia's ORCID</a>
+<a href="https://www.researchgate.net/profile/Alicia-Takaoka">Alicia's ResearchGate</a>
 
-## Research Themes
+## Inclusion in Port Cities in Energy Transition
 
-### Intersectional Software Engineering
+https://www.pact-costaction.eu/
 
-### Mental Health
+## Intersectional Software Engineering
 
-### Energy Transition
+https://intersectionalitywork.github.io/
 
-### Data Design
+## Mental Health
+
+https://osf.io/j5w8m/overview
+
+## Data Design
+
+https://zenodo.org/records/17588886
+https://energyshr.nl/
 
 ## Current and Ongoing Work
 
-### CESI
+Ask me about my current projects :)
 
-### PACT
+## CESI
 
-### COS-MICs
+https://cesi-nl.github.io/
 
-[research image placeholder]
+## Gender in STEM in Comics
+
+https://cosmics.hypotheses.org/
+
