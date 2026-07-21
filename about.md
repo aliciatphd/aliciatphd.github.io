@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: About Alicia
+title: A little about me
 permalink: /about/
 
 ---
