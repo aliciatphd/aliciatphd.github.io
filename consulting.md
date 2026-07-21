@@ -1,3 +1,9 @@
+---
+layout: page
+title: Hire Me
+permalink: /consulting/
+---
+
 # Consulting
 
 ## Hire Me For
