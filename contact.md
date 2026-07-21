@@ -1,3 +1,9 @@
+---
+layout: page
+title: Reach Out
+permalink: /contact/
+---
+
 # Contact
 
 Interested in collaborating?
