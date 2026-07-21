@@ -1,0 +1,161 @@
+First Blog Template
+Create:
+Plain Text
+1
+_posts/
+2
+2026-07-21-welcome-back.md
+Show more lines
+Markdown
+1
+---
+2
+layout: post
+3
+title: "Welcome Back"
+4
+date: 2026-07-21
+5
+categories:
+6
+- reflections
+7
+---
+8
+ 
+9
+Welcome back to the blog.
+10
+ 
+11
+This space will be used to explore
+12
+research, inclusion, software engineering,
+13
+energy justice, and life in academia.
+
+1 .hero
+2 .image-frame
+3 .research-banner
+4 .education-grid
+5 .edu-card
+6 .service-card
+7 .media-card
+8 .portfolio-gallery
+9 .blog-card
+10 .contact-layout
+
+<!--template 
+For the Wix migration, I recommend using a single reusable Jekyll blog template that preserves your voice as a researcher, educator, community organizer, and science communicator while making the archive consistent and searchable.
+Create a new file in:
+Plain Text
+1
+_posts/YYYY-MM-DD-post-title.md
+
+Standard Wix Migration Template
+---
+layout: post
+title: "TITLE OF POST"
+date: YYYY-MM-DD
+author: Alicia JW Takaoka
+
+categories:
+- research
+
+tags:
+- intersectionality
+- ai
+- software-engineering
+
+excerpt: >
+One or two sentence summary that appears on the blog
+archive page.
+
+image: /assets/images/blog/post-image.jpg
+
+featured: false
+---
+
+![Featured image]({{ page.image }})
+
+# TITLE OF POST
+
+*Originally published on my Wix blog on Month DD, YYYY.*
+
+---
+
+## Why I'm Writing About This
+
+[Opening paragraph]
+
+Explain:
+
+- motivation
+- context
+- why this matters
+- personal reflection
+
+---
+
+## Background
+
+Provide context.
+
+Examples:
+
+- research project
+- conference
+- teaching experience
+- community engagement
+- personal experience
+
+---
+
+## Key Ideas
+
+### Theme 1
+
+Discussion.
+
+### Theme 2
+
+Discussion.
+
+### Theme 3
+
+Discussion.
+
+---
+
+## What This Means
+
+Analysis section.
+
+Questions:
+
+- Why is this important?
+- Who benefits?
+- What challenges remain?
+- What should happen next?
+
+---
+
+## Reflections
+
+Personal reflections.
+
+This section often works well for:
+
+- lessons learned
+- failures
+- successes
+- questions you are still exploring
+
+---
+
+## Further Reading
+
+- Link 1
+- Link 2
+- Link 3
+
