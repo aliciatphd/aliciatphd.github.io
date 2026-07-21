@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /
+permalink: /home
 ---
 <div class="hero">
 
