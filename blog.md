@@ -1,1 +1,20 @@
-tabling this for now
+_posts/StayingWoke.md
+_posts/dissertationjourney.md
+_posts/mulan2020.md
+_posts/landlionking.md
+_posts/walle2020.md
+_posts/sexnarratives.md
+_posts/terrifiedyoutube.md
+_posts/problematic1.md
+_posts/misheardlyrics.md
+_posts/late.md
+_posts/problematic2.md
+_posts/problematic3.md
+_posts/indigenousppls2020.md
+_posts/mymonster.md
+_posts/unpackingmymonster.md
+_posts/2020election.md
+_posts/canon2020.md
+_posts/grading2020.md
+_posts/finals2020.md
+
